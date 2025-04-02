@@ -143,3 +143,72 @@ You are required to submit BOTH of the following for review:
 
 ---
 © 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+
+
+```
+Testing Challenge-19
+├─ README.md
+└─ tech-quiz
+   ├─ .npmrc
+   ├─ client
+   │  ├─ .eslintrc.cjs
+   │  ├─ index.html
+   │  ├─ package-lock.json
+   │  ├─ package.json
+   │  ├─ public
+   │  │  └─ vite.svg
+   │  ├─ src
+   │  │  ├─ App.css
+   │  │  ├─ App.tsx
+   │  │  ├─ assets
+   │  │  │  └─ react.svg
+   │  │  ├─ components
+   │  │  │  └─ Quiz.tsx
+   │  │  ├─ main.tsx
+   │  │  ├─ models
+   │  │  │  ├─ Answer.ts
+   │  │  │  └─ Question.ts
+   │  │  └─ services
+   │  │     └─ questionApi.ts
+   │  ├─ tsconfig.json
+   │  ├─ tsconfig.node.json
+   │  └─ vite.config.ts
+   ├─ cypress
+   │  ├─ component
+   │  │  ├─ e2e
+   │  │  │  └─ quiz.cy.ts
+   │  │  └─ Quiz.cy.tsx
+   │  └─ fixtures
+   │     └─ questions.json
+   ├─ package-lock.json
+   ├─ package.json
+   ├─ server
+   │  ├─ .env
+   │  ├─ package-lock.json
+   │  ├─ package.json
+   │  ├─ src
+   │  │  ├─ config
+   │  │  │  └─ connection.ts
+   │  │  ├─ controllers
+   │  │  │  └─ questionController.ts
+   │  │  ├─ models
+   │  │  │  ├─ index.ts
+   │  │  │  └─ Question.ts
+   │  │  ├─ routes
+   │  │  │  ├─ api
+   │  │  │  │  ├─ index.ts
+   │  │  │  │  └─ questionRoutes.ts
+   │  │  │  └─ index.ts
+   │  │  ├─ seeds
+   │  │  │  ├─ cleanDb.ts
+   │  │  │  ├─ pythonQuestions.json
+   │  │  │  └─ seed.ts
+   │  │  └─ server.ts
+   │  └─ tsconfig.json
+   ├─ tsconfig.json
+   ├─ vite.config.d.ts
+   ├─ vite.config.js
+   └─ vite.config.ts
+
+```
