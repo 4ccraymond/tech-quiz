@@ -87,10 +87,12 @@ const Quiz = () => {
       <div className="mt-3">
       {currentQuestion.answers.map((answer, index) => (
         <div key={index} className="d-flex align-items-center mb-2">
-          <button className="btn btn-primary" onClick={() => handleAnswerClick(answer.isCorrect)}>{index + 1}</button>
-          <div className="alert alert-secondary mb-0 ms-2 flex-grow-1">{answer.text}</div>
-        </div>
-      ))}
+          <button className="btn btn-primary w-100" onClick={() => handleAnswerClick(answer.isCorrect)}>
+            {answer.text}
+          </button>
+    </div>
+))}
+
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import viteConfig from './vite.config';
 export default defineConfig({
   e2e: {
     baseUrl: 'http://localhost:3001',
+    supportFile: false,
     setupNodeEvents(on, config) {
       //plugin logic here if needed
     },
