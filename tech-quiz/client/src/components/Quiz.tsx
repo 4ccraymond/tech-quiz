@@ -29,6 +29,7 @@ const Quiz = () => {
     }
 
     const nextQuestionIndex = currentQuestionIndex + 1;
+    console.log('next question index', nextQuestionIndex);
     if (nextQuestionIndex < questions.length) {
       setCurrentQuestionIndex(nextQuestionIndex);
     } else {
